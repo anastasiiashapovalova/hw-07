@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Site (NEW)</title>
     <style>
-
+        body {
+            background-color: #FFFFFF;
+        }
         .first-screen {
             width: 1920px;
             height: 700px;
@@ -141,6 +143,61 @@
             top: 1613px;
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
         }
+        .how-i-work {
+            position: absolute;
+            width: 403px;
+            height: 38px;
+            left: 758px;
+            top: 1409px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #000000;
+        }
+        .text-03 {
+            position: absolute;
+            width: 540px;
+            height: 78px;
+            left: 690px;
+            top: 1489px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #727272;
+        }
+        .footer {
+            position: absolute;
+            width: 1920px;
+            height: 151px;
+            left: 0px;
+            top: 2313px;
+            background: #34547A;
+        }
+        .ivanov {
+            position: absolute;
+            width: 130px;
+            height: 24px;
+            left: 406px;
+            top: 2363px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
     </style>
 </head>
 <body>
@@ -155,14 +212,21 @@
     --><div class="write">
             <div class="write-me">написать мне</div>
     </div>
+
     <div class="about-me">
         <div class="about">Обо мне</div>
         <div><p class="text-02">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p></div>
     </div>
 
-    <div></div>
-    <div class="video"><video src="video/Front-end Basic.mp4" width="1110" height="600"controls></video></div>
-    <div></div>
-</div>
+    <div class="video-title">
+        <div class="how-i-work">Как я работаю</div>
+        <div><p class="text-03">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p></div>
+        <div class="video"><video src="video/Front-end Basic.mp4" width="1110" height="600"controls></video></div>
+    </div>
+
+    <div class="footer">
+        <div class="ivanov">Иванов Иван</div>
+        <div class="year">(с) 2018. Все права защищены.</div> 
+    </div>
 </body>
 </html>
