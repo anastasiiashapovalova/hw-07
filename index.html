@@ -6,42 +6,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Site (NEW)</title>
     <style>
-        .label {
-            background-color: orange;
+
+        .first-screen {
+            width: 1920px;
+            height: 700px;
+            background-color: #EEEFF1;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+        }
+        .first-screen_menu {
             display: inline-block;
-            vertical-align: top;
-            padding: 5px 10px;
-            border-radius: 15px;
-            color: white;
-            font-family: Arial;
-            text-transform: uppercase;
         }
-        .label.only {
-            background-color: purple;
+        .home {
+            width: 84px;
+            height: 18px;
+            top: 79px;
+            left: 399px;
+            color: #34547A;
+            position: absolute;
+            font-size: 16px
         }
-        .label.sale {
-            background-color: red;
+        .author {
+            width: 100px;
+            height: 18px;
+            top: 79px;
+            left: 525px;
+            color: #000000;
+            position: absolute;
+            font-size: 16px
         }
-        .label.percent {
-            background-color: royalblue;
+        .work {
+            width: 74px;
+            height: 18px;
+            top: 79px;
+            left: 667px;
+            color: #000000;
+            position: absolute;
+            font-size: 16px
         }
-        .lab {
-            font-size: 12px;
-            line-height: 20px;
+        .process {
+            width: 86px;
+            height: 18px;
+            top: 79px;
+            left: 783px;
+            color: #000000;
+            position: absolute;
+            font-size: 16px
+        }
+        .contacts {
+            width: 99px;
+            height: 18px;
+            top: 79px;
+            left: 911px;
+            color: #000000;
+            position: absolute;
+            font-size: 16px
+        }
+        .design {
+            width: 541px;
+            height: 60px;
+            top: 257px;
+            left: 399px;
+            color:#000000;
+            position: absolute;
+            font-size: 48px;
+        }
+        .text {
+            position: absolute;
+            width: 540px;
+            height: 78px;
+            left: 400px;
+            top: 362px;
+            display: flex;
+            align-items: center;
+            color: #727272;
+            font-size: 16px;
+        }
+        .write {
+            position: absolute;
+            width: 225px;
+            height: 65px;
+            left: 399px;
+            top: 494px;
+            background: #34547A;
+        }
+        .write-me {
+            position: absolute;
+            width: 143px;
+            height: 26px;
+            left: 440px;
+            top: 513px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .text-02 {
+            position: absolute;
+            width: 540px;
+            height: 78px;
+            left: 690px;
+            top: 892px;
+            font-size: 16px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #727272;
+        }
+        .about {
+            position: absolute;
+            width: 403px;
+            height: 38px;
+            left: 758px;
+            top: 812px;
+            font-family: Roboto;
+            font-style: normal;
             font-weight: 500;
-            letter-spacing: 1px;
-            word-spacing: 30px;
-            font-style: italic;
-            font-family: Arial;
+            font-size: 32px;
+            line-height: 38px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #000000;
+        }
+        .video {
+            position: absolute;
+            width: 1110px;
+            height: 600px;
+            left: 405px;
+            top: 1613px;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
         }
     </style>
 </head>
 <body>
-    <span class="label">Главная</span><!--
- --><span class="label">Об авторе</span><!--
- --><span class="label only">Работы</span><!--
- --><span class="label sale">Процесс</span><!--
- --><span class="label percent">Контакты</span><!--
- --><span class="lab"></span>
+    <div class="first-screen">
+        <div class="first-screen_menu home">главная</div><!--
+    --><div class="first-screen_menu author">об авторе</div><!--
+    --><div class="first-screen_menu work">работы</div><!--
+    --><div class="first-screen_menu process">процесс</div><!--
+    --><div class="first-screen_menu contacts">контакты</div><!--
+    --><div class="design">Дизайн и верстка</div><!--
+    --><div class="text"><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является   стандартной "рыбой" для текстов на латинице с начала XVI века.</p></div><!--
+    --><div class="write">
+            <div class="write-me">написать мне</div>
+    </div>
+    <div class="about-me">
+        <div class="about">Обо мне</div>
+        <div><p class="text-02">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p></div>
+    </div>
+
+    <div></div>
+    <div class="video"><video src="video/Front-end Basic.mp4" width="1110" height="600"controls></video></div>
+    <div></div>
+</div>
 </body>
 </html>
